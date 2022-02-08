@@ -19,3 +19,6 @@ In this project, for collecting images from webcam we will be using OpenCV and f
 2. Setting an alarm sound file, and we will set a path of haar cascade files to detect face, detect left eye, and detect right eye.
 3. After this we will load our model, and using OpenCV we will access a webcam that will capture each frame.
 4. This is the main logic of code. In this code we are checking that, if the person’s left eye and right eye are closed, time will increase and if time increases more than 10 the alert sound will start, and if both eyes are open the time decreases and sound stops after some time.
+
+# Summary
+In this project, we learn OpenCV and use a haar cascade classifier to detect faces and eyes of a person. With the help of this, we are successfully able to create a drowsy driver alert system.
