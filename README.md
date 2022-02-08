@@ -9,8 +9,11 @@ In this project, for collecting images from webcam we will be using OpenCV and f
 *	At last, we will calculate the time to check if the person is drowsy or not.
 # Driver Drowsiness Detection Project Code :
 **haarcascade files:** This folder has files that are used to detect the face and eyes of a person, these files are xml files. The haar cascade files have many xml files that are required to detect objects in an image. You can download this also just by searching on Google.
+
 **Beep-07.wav:** This file is used to play the alert sound when a person closes its eyes for a few seconds.
+
 **drowsiness_system.py:** This file consists of full implementation of our project in which we have loaded the model and used it to alert the person whenever he/she will feel drowsy. So this is the main file, you have to run this file for detection procedure.
+
 ## Let’s go step by step:
 1. Importing all the needed libraries:
 2. Setting an alarm sound file, and we will set a path of haar cascade files to detect face, detect left eye, and detect right eye.
